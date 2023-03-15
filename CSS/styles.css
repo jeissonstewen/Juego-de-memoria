@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100vh;
+    background-color: #2B3467;
+}
+.container{
+    margin: 6% auto;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #bad7e968;
+}
+
+.container__fichas{
+    height: 100%;
+    width: 70%;
+    padding: 15px;
+}
+.title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffd60a;
+    font-size: xx-large;
+}
+.fichas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    height: 90%;
+
+}
+.btn__ficha{
+    width: 22%;
+    height: 22%;
+}
+
+.container__datos{
+    width: 30%;
+    height: 100%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+.container__datos > div:nth-child(-n+3){
+    border: solid 1px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.datos__title{
+    color: #2B3467;
+}
+.datos__reiniciar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reiniciar{
+    width: 70%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #BAD7E9;
+}
